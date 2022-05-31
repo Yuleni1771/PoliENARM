@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    background-color: var(--azul);
+}
+:root{
+    --negro: #3B3F44;
+    --azul: #64AAB2;
+    --verde: #B9D7D2;
+    --blanco: #EEEFEC;
+}
+.inicio{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 50% 50%;
+    justify-content: center;
+}
+.inicio img{
+    height: 70rem;
+    width: auto;
+    width: 50%;
+}
+.inicio button{
+    height: 15rem;
+    width: 40rem;
+    font-size: 10rem;
+    margin-left: 10rem;
+    border-radius: 10rem;
+    background-color: var(--blanco);
+    border: none;
+    color: var(--azul);
+    font-weight: bold;
+}
+.login{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    font-size: 5rem;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    color: var(--negro);
+}
+.login img{
+    height: 75rem;
+    width: 75rem;
+}
+.login section{
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.login section a{
+    font-size: 2rem;
+    color: var(--negro);
+    margin-bottom: 2rem;
+}
+.login section form{
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+    
+}
+.login section form input{
+    border: none;
+    border-radius: 10rem;
+    background-color: var(--blanco);
+    color: var(--negro);
+    height: 10rem;
+    width: 50rem;
+    margin: 2rem;
+    padding: 3rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.login button{
+    border: none;
+    padding: 3rem;
+    border-radius: 10rem;
+    background-color: var(--blanco);
+    color: var(--negro);
+    font-size: 4rem;
+    font-weight: bold;
+}
+.registro form{
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    font-size: 3rem;
+    margin-left: 30rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+.registro form label{
+    margin: 1.3rem;
+    font-weight: bold;
+    color: var(--negro);
+}
+.registro input{
+    height: 5rem;
+    width: 50rem;
+    margin-left: 5rem;
+    border: none;
+    border-radius: 5rem;
+    padding: 1rem;
+    font-size: 2rem;
+}
+.registro select{
+    height: 5rem;
+    width: 50rem;
+    margin-left: 5rem;
+    color: var(--negro);
+    border: none;
+    border-radius: 5rem;
+    font-size: 2rem;
+    padding: 1rem;
+}
+.registro button{
+    border: none;
+    border-radius: 10rem;
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--negro);
+    background-color: var(--blanco);
+    padding: 2rem;
+    margin-left: 35rem;
+}
+.home{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    margin-left: 10rem;
+    color: var(--negro);
+}
+.home img{
+    width: 15rem;
+    height: 15rem;
+}
+.home section{
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 70rem;
+    justify-content: center;
+    align-content: center;
+    font-size: 4rem;
+}
+.home button{
+    border: none;
+    background-color: transparent;
+    margin: 2.5rem;
+    color: var(--negro);
+    font-size: 2rem;
+    font-weight: bold;
+}
