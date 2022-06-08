@@ -163,3 +163,111 @@ html{
     font-size: 2rem;
     font-weight: bold;
 }
+.casos_clinicos{
+    display: flex;
+    flex-flow: column;
+}
+.casos_clinicos button{
+    border: none;
+    background: transparent;
+    justify-self: flex-end;
+}
+.casos_clinicos img{
+    height: 7rem;
+    width: auto;
+}
+.casos_clinicos header{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    font-size: 5rem;
+    font-weight: bold;
+    margin: 4rem;
+    justify-content: space-between;
+}
+.casos_clinicos main{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    margin: 5rem;
+    justify-content: space-between;
+}
+.casos_clinicos h1{
+    width: 45%;
+    background-color: var(--verde);
+    border-radius: 3rem;
+    font-size: 1.5rem;
+    margin: 2rem;
+    font-weight: bold;
+    padding: 3rem;
+}
+.casos_clinicos p{
+    width: 45%;
+    background-color: var(--verde);
+    border-radius: 3rem;
+    font-size: 1.5rem;
+    margin: 2rem;
+    padding: 3rem;
+}
+
+.flash_cards{
+    display: flex;
+    flex-flow: column;
+}
+.flash_cards button{
+    border: none;
+    background: transparent;
+    justify-self: flex-end;
+}
+.flash_cards img{
+    height: 7rem;
+    width: auto;
+}
+.flash_cards header{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    font-size: 5rem;
+    font-weight: bold;
+    margin: 4rem;
+    justify-content: space-between;
+}
+.flash_cards main{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    margin: 5rem;
+    justify-content: space-between;
+}
+.flash_cards h1{
+    width: 23%;
+    background-color: var(--verde);
+    border-radius: 3rem;
+    font-size: 1.3rem;
+    margin: 1rem;
+    font-weight: bold;
+    padding: 3rem;
+}
+.flash_cards p{
+    width: 23%;
+    background-color: var(--verde);
+    border-radius: 3rem;
+    font-size: 1.5rem;
+    margin: 1rem;
+    padding: 3rem;
+    font-size: 1.3rem;
+}
+.flash_cards textarea{
+    background-color: transparent;
+    border-radius: 3rem;
+    border: solid var(--blanco);
+    border-width: 0.5rem;
+    width: 45%;
+    min-height: 40rem;
+    padding: 2rem;
+    font-size: 2rem;
+    color: var(--negro);
+}
+.Frente_FC{
+    font-weight: bold;
+}
