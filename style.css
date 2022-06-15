@@ -292,3 +292,27 @@ html{
     flex-wrap: wrap;
     justify-content: center;
 }
+.cuestionarios img{
+    height: 7rem;
+    width: auto;
+}
+.cuestionarios header{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    font-size: 5rem;
+    font-weight: bold;
+    margin: 4rem;
+    justify-content: space-between;
+}
+.cuestionarios button{
+    border: none;
+    background: transparent;
+    justify-self: flex-end;
+}
+.cuestionarios form{
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    margin: 5rem;
+}
