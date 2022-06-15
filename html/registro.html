@@ -1,28 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
     <title>Document</title>
-</head>
-<body class="registro">
-    <form action="">
-        <label for="">NOMBRE(S)<input type="text"></label>
-        <label for="">APELLIDOS<input type="text"></label>
-        <label for="">ESCUELA
-            <select name="ESCUELA" id="">
-                <option>ESM IPN</option>
-                <option>ESMyH IPN</option>
-            </select>
-        </label>
-        <label for="">NUMERO DE BOLETA<input type="number" maxlength="10"></label>
-        <label for="">USUARIO<input type="text"></label>
-        <label for="">CONTRASEÑA<input type="password"></label>
-        <label for="">FECHA DEL EXAMEN<input type="date"></label>
-        <button type="submit">REGISTRAR</button>
+  </head>
+  <body class="registro">
+    <form id="registro">
+      <label for="">NOMBRE(S)<input id="nombre" type="text" /></label>
+      <label for="">APELLIDOS<input id="apellidos" type="text" /></label>
+      <label for=""
+        >ESCUELA
+        <select name="ESCUELA" id="escuela">
+          <option>ESM IPN</option>
+          <option>ESMyH IPN</option>
+        </select>
+      </label>
+      <label for=""
+        >NUMERO DE BOLETA<input id="boleta" type="number" maxlength="10"
+      /></label>
+      <label for="">USUARIO<input id="user" type="text" /></label>
+      <label for="">EMAIL<input id="email" type="email" /></label>
+      <label for="">CONTRASEÑA<input id="pass" type="password" /></label>
+      <label for="">FECHA DEL EXAMEN<input id="date" type="date" /></label>
+      <button type="submit">REGISTRAR</button>
     </form>
     <a href="./login.html"><button>CANCELAR</button></a>
-</body>
+    <script type="module" src="../js/registro.js"></script>
+  </body>
 </html>

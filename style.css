@@ -1,318 +1,293 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-html{
-    font-size: 62.5%;
-    background-color: var(--azul);
+html {
+  font-size: 62.5%;
+  background-color: var(--azul);
 }
-:root{
-    --negro: #3B3F44;
-    --azul: #64AAB2;
-    --verde: #B9D7D2;
-    --blanco: #EEEFEC;
+:root {
+  --negro: #3b3f44;
+  --azul: #64aab2;
+  --verde: #b9d7d2;
+  --blanco: #eeefec;
 }
-.inicio{
-    display: flex;
-    flex-flow: row;
-    flex-wrap: wrap;
-    align-items: center;
-    width: 50% 50%;
-    justify-content: center;
+.inicio {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 50% 50%;
+  justify-content: center;
 }
-.inicio img{
-    height: 70rem;
-    width: auto;
-    width: 50%;
+.inicio img {
+  height: 70rem;
+  width: auto;
+  width: 50%;
 }
-.inicio button{
-    height: 15rem;
-    width: 40rem;
-    font-size: 10rem;
-    margin-left: 10rem;
-    border-radius: 10rem;
-    background-color: var(--blanco);
-    border: none;
-    color: var(--azul);
-    font-weight: bold;
+.inicio button {
+  height: 15rem;
+  width: 40rem;
+  font-size: 10rem;
+  margin-left: 10rem;
+  border-radius: 10rem;
+  background-color: var(--blanco);
+  border: none;
+  color: var(--azul);
+  font-weight: bold;
 }
-.login{
-    display: flex;
-    flex-flow: row;
-    flex-wrap: wrap;
-    font-size: 5rem;
-    font-weight: bold;
-    justify-content: center;
-    align-items: center;
-    color: var(--negro);
+.login {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  font-size: 5rem;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  color: var(--negro);
 }
-.login img{
-    height: 75rem;
-    width: 75rem;
+.login img {
+  height: 75rem;
+  width: 75rem;
 }
-.login section{
-    display: flex;
-    flex-flow: column;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+.login section {
+  display: flex;
+  flex-flow: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
-.login section a{
-    font-size: 2rem;
-    color: var(--negro);
-    margin-bottom: 2rem;
+.login section a {
+  font-size: 2rem;
+  color: var(--negro);
+  margin-bottom: 2rem;
 }
-.login section form{
-    display: flex;
-    flex-flow: column;
-    flex-wrap: wrap;
-    margin-top: 4rem;
-    
+.login section form {
+  display: flex;
+  flex-flow: column;
+  flex-wrap: wrap;
+  margin-top: 4rem;
 }
-.login section form input{
-    border: none;
-    border-radius: 10rem;
-    background-color: var(--blanco);
-    color: var(--negro);
-    height: 10rem;
-    width: 50rem;
-    margin: 2rem;
-    padding: 3rem;
-    font-size: 3rem;
-    font-weight: bold;
+.login section form input {
+  border: none;
+  border-radius: 10rem;
+  background-color: var(--blanco);
+  color: var(--negro);
+  height: 10rem;
+  width: 50rem;
+  margin: 2rem;
+  padding: 3rem;
+  font-size: 3rem;
+  font-weight: bold;
 }
-.login section form button{
-    border: none;
-    padding: 3rem;
-    width: 40rem;
-    border-radius: 10rem;
-    background-color: var(--verde);
-    color: var(--negro);
-    margin: 2rem;
-    font-size: 4rem;
-    font-weight: bold;
+.login section form button {
+  border: none;
+  padding: 3rem;
+  width: 40rem;
+  border-radius: 10rem;
+  background-color: var(--verde);
+  color: var(--negro);
+  margin: 2rem;
+  font-size: 4rem;
+  font-weight: bold;
 }
-.registro form{
-    display: flex;
-    flex-flow: column;
-    flex-wrap: wrap;
-    font-size: 3rem;
-    margin-left: 30rem;
-    margin-top: 5rem;
-    margin-bottom: 3rem;
+.registro form {
+  display: flex;
+  flex-flow: column;
+  flex-wrap: wrap;
+  font-size: 3rem;
+  margin-left: 30rem;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
 }
-.registro form label{
-    margin: 1.3rem;
-    font-weight: bold;
-    color: var(--negro);
+.registro form label {
+  margin: 1.3rem;
+  font-weight: bold;
+  color: var(--negro);
 }
-.registro input{
-    height: 5rem;
-    width: 50rem;
-    margin-left: 5rem;
-    border: none;
-    border-radius: 5rem;
-    padding: 1rem;
-    font-size: 2rem;
+.registro input {
+  height: 5rem;
+  width: 50rem;
+  margin-left: 5rem;
+  border: none;
+  border-radius: 5rem;
+  padding: 1rem;
+  font-size: 2rem;
 }
-.registro select{
-    height: 5rem;
-    width: 50rem;
-    margin-left: 5rem;
-    color: var(--negro);
-    border: none;
-    border-radius: 5rem;
-    font-size: 2rem;
-    padding: 1rem;
+.registro select {
+  height: 5rem;
+  width: 50rem;
+  margin-left: 5rem;
+  color: var(--negro);
+  border: none;
+  border-radius: 5rem;
+  font-size: 2rem;
+  padding: 1rem;
 }
-.registro button{
-    border: none;
-    border-radius: 10rem;
-    font-size: 3rem;
-    font-weight: bold;
-    width: 40rem;
-    color: var(--negro);
-    background-color: var(--blanco);
-    padding: 2rem;
-    margin-left: 35rem;
+.registro button {
+  border: none;
+  border-radius: 10rem;
+  font-size: 3rem;
+  font-weight: bold;
+  width: 40rem;
+  color: var(--negro);
+  background-color: var(--blanco);
+  padding: 2rem;
+  margin-left: 35rem;
 }
-.home{
-    display: flex;
-    flex-flow: row;
-    flex-wrap: wrap;
-    margin-left: 10rem;
-    color: var(--negro);
+.home {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  margin-left: 10rem;
+  color: var(--negro);
 }
-.home img{
-    width: 15rem;
-    height: 15rem;
+.home img {
+  width: 15rem;
+  height: 15rem;
 }
-.home section{
-    display: flex;
-    flex-flow: column;
-    flex-wrap: wrap;
-    width: 50%;
-    height: 70rem;
-    justify-content: center;
-    align-content: center;
-    font-size: 4rem;
+.home section {
+  display: flex;
+  flex-flow: column;
+  flex-wrap: wrap;
+  width: 50%;
+  height: 70rem;
+  justify-content: center;
+  align-content: center;
+  font-size: 4rem;
 }
-.home button{
-    border: none;
-    background-color: transparent;
-    margin: 2.5rem;
-    color: var(--negro);
-    font-size: 2rem;
-    font-weight: bold;
+.home button {
+  border: none;
+  background-color: transparent;
+  margin: 2.5rem;
+  color: var(--negro);
+  font-size: 2rem;
+  font-weight: bold;
 }
-.casos_clinicos{
-    display: flex;
-    flex-flow: column;
+.casos_clinicos {
+  display: flex;
+  flex-flow: column;
 }
-.casos_clinicos button{
-    border: none;
-    background: transparent;
-    justify-self: flex-end;
+.casos_clinicos button {
+  border: none;
+  background: transparent;
+  justify-self: flex-end;
 }
-.casos_clinicos img{
-    height: 7rem;
-    width: auto;
+.casos_clinicos img {
+  height: 7rem;
+  width: auto;
 }
-.casos_clinicos header{
-    display: flex;
-    flex-flow: row;
-    flex-wrap: wrap;
-    font-size: 5rem;
-    font-weight: bold;
-    margin: 4rem;
-    justify-content: space-between;
+.casos_clinicos header {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  font-size: 5rem;
+  font-weight: bold;
+  margin: 4rem;
+  justify-content: space-between;
 }
-.casos_clinicos main{
-    display: flex;
-    flex-flow: row;
-    flex-wrap: wrap;
-    margin: 5rem;
-    justify-content: space-between;
+.casos_clinicos main {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  margin: 5rem;
+  justify-content: space-between;
 }
-.casos_clinicos h1{
-    width: 45%;
-    background-color: var(--verde);
-    border-radius: 3rem;
-    font-size: 1.5rem;
-    margin: 2rem;
-    font-weight: bold;
-    padding: 3rem;
+.casos_clinicos h1 {
+  width: 45%;
+  background-color: var(--verde);
+  border-radius: 3rem;
+  font-size: 1.5rem;
+  margin: 2rem;
+  font-weight: bold;
+  padding: 3rem;
 }
-.casos_clinicos p{
-    width: 45%;
-    background-color: var(--verde);
-    border-radius: 3rem;
-    font-size: 1.5rem;
-    margin: 2rem;
-    padding: 3rem;
+.casos_clinicos p {
+  width: 45%;
+  background-color: var(--verde);
+  border-radius: 3rem;
+  font-size: 1.5rem;
+  margin: 2rem;
+  padding: 3rem;
 }
 
-.flash_cards{
-    display: flex;
-    flex-flow: column;
+.flash_cards {
+  display: flex;
+  flex-flow: column;
 }
-.flash_cards button{
-    border: none;
-    background: transparent;
-    justify-self: flex-end;
+.flash_cards button {
+  border: none;
+  background: transparent;
+  justify-self: flex-end;
 }
-.flash_cards img{
-    height: 7rem;
-    width: auto;
+.flash_cards img {
+  height: 7rem;
+  width: auto;
 }
-.flash_cards header{
-    display: flex;
-    flex-flow: row;
-    flex-wrap: wrap;
-    font-size: 5rem;
-    font-weight: bold;
-    margin: 4rem;
-    justify-content: space-between;
+.flash_cards header {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  font-size: 5rem;
+  font-weight: bold;
+  margin: 4rem;
+  justify-content: space-between;
 }
-.flash_cards main{
-    display: flex;
-    flex-flow: row;
-    flex-wrap: wrap;
-    margin: 5rem;
-    justify-content: space-between;
+.flash_cards main {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  margin: 5rem;
+  justify-content: space-between;
 }
-.flash_cards h1{
-    width: 23%;
-    background-color: var(--verde);
-    border-radius: 3rem;
-    font-size: 1.3rem;
-    margin: 1rem;
-    font-weight: bold;
-    padding: 3rem;
+.flash_cards h1 {
+  width: 45%;
+  background-color: var(--verde);
+  border-radius: 3rem;
+  font-size: 1.3rem;
+  margin: 2rem 0rem 2rem 2rem;
+  font-weight: bold;
+  padding: 3rem;
 }
-.flash_cards p{
-    width: 23%;
-    background-color: var(--verde);
-    border-radius: 3rem;
-    font-size: 1.5rem;
-    margin: 1rem;
-    padding: 3rem;
-    font-size: 1.3rem;
+.flash_cards p {
+  width: 45%;
+  background-color: var(--verde);
+  border-radius: 3rem;
+  font-size: 1.5rem;
+  margin: 1rem;
+  padding: 3rem;
+  font-size: 1.3rem;
 }
-.flash_cards form textarea{
-    background-color: transparent;
-    border-radius: 3rem;
-    border: solid var(--blanco);
-    border-width: 0.5rem;
-    width: 45%;
-    min-height: 35rem;
-    margin: 2rem;
-    padding: 2rem;
-    font-size: 2rem;
-    color: var(--negro);
+.flash_cards form textarea {
+  background-color: transparent;
+  border-radius: 3rem;
+  border: solid var(--blanco);
+  border-width: 0.5rem;
+  width: 45%;
+  min-height: 35rem;
+  margin: 2rem;
+  padding: 2rem;
+  font-size: 2rem;
+  color: var(--negro);
 }
-.Frente_FC{
-    font-weight: bold;
+.Frente_FC {
+  font-weight: bold;
 }
-.flash_cards form input{
-    width: 45%;
-    height: 10rem;
-    font-size: 5rem;
-    font-weight: bold;
-    color: var(--negro);
-    background-color: var(--verde);
-    margin: 2rem;
-    border-radius: 10rem;
-    border: none;
+.flash_cards form input {
+  width: 45%;
+  height: 10rem;
+  font-size: 5rem;
+  font-weight: bold;
+  color: var(--negro);
+  background-color: var(--verde);
+  margin: 2rem;
+  border-radius: 10rem;
+  border: none;
 }
-.flash_cards form{
-    display: flex;
-    flex-flow: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.cuestionarios img{
-    height: 7rem;
-    width: auto;
-}
-.cuestionarios header{
-    display: flex;
-    flex-flow: row;
-    flex-wrap: wrap;
-    font-size: 5rem;
-    font-weight: bold;
-    margin: 4rem;
-    justify-content: space-between;
-}
-.cuestionarios button{
-    border: none;
-    background: transparent;
-    justify-self: flex-end;
-}
-.cuestionarios form{
-    display: flex;
-    flex-direction: column;
-    font-size: 2rem;
-    margin: 5rem;
+.flash_cards form {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
